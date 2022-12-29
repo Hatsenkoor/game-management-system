@@ -1,0 +1,281 @@
+ERROR - 2022-12-26 13:09:31 --> mysqli_sql_exception: Table 'baseattackforce.users' doesn't exist in C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\BaseAttackForceScrapy\app\Models\UserModel.php(36): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\BaseAttackForceScrapy\app\Controllers\Profile.php(28): App\Models\UserModel->getUserById(NULL)
+#8 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Profile->index()
+#9 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#10 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\BaseAttackForceScrapy\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-26 13:09:31 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 250.
+ 1 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Models\UserModel.php(36): CodeIgniter\BaseModel->first()
+ 3 APPPATH\Controllers\Profile.php(28): App\Models\UserModel->getUserById(null)
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profile->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-26 13:13:35 --> mysqli_sql_exception: Table 'baseattackforce.users' doesn't exist in C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\BaseAttackForceScrapy\app\Models\UserModel.php(36): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\BaseAttackForceScrapy\app\Controllers\Profile.php(28): App\Models\UserModel->getUserById(NULL)
+#8 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Profile->index()
+#9 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#10 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\BaseAttackForceScrapy\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-26 13:13:35 --> Table 'baseattackforce.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE `id` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `id` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `id` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `id` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\UserModel.php(36): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Profile.php(28): App\Models\UserModel->getUserById(null)
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profile->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 13:41:21 --> Undefined array key "username"
+in APPPATH\Views\templates\header.php on line 53.
+ 1 APPPATH\Views\templates\header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\templates\\header.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Profile.php(32): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 13:41:29 --> Undefined array key "username"
+in APPPATH\Views\templates\header.php on line 53.
+ 1 APPPATH\Views\templates\header.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Views\\templates\\header.php', 53)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Profile.php(32): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 16:14:10 --> _get_uri(): Argument #1 ($relativePath) must be of type string, null given, called in C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(105): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\templates\header.php(48): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates/header', [], true)
+ 7 APPPATH\Controllers\Profile.php(32): view('templates/header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profile->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 16:14:23 --> _get_uri(): Argument #1 ($relativePath) must be of type string, null given, called in C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(105): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\templates\header.php(48): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates/header', [], true)
+ 7 APPPATH\Controllers\Profile.php(32): view('templates/header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profile->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 16:14:49 --> _get_uri(): Argument #1 ($relativePath) must be of type string, null given, called in C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+in SYSTEMPATH\Helpers\url_helper.php on line 31.
+ 1 SYSTEMPATH\Helpers\url_helper.php(87): _get_uri(null, Object(Config\App))
+ 2 SYSTEMPATH\Helpers\url_helper.php(105): site_url(null, null, Object(Config\App))
+ 3 APPPATH\Views\templates\header.php(48): base_url(null)
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\templates\\header.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates/header', [], true)
+ 7 APPPATH\Controllers\Profile.php(32): view('templates/header', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profile->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-26 16:26:44 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'nouahsar_Amjad200'@'188.43.235.177' (using password: YES) in C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('151.106.100.138', 'nouahsar_Amjad2...', 'Rook700Jean956', 'baseattackforce', 3306, '', 0)
+#1 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\BaseAttackForceScrapy\app\Models\UserModel.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\BaseAttackForceScrapy\app\Controllers\Auth.php(40): App\Models\UserModel->auth(Array)
+#8 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Auth->login()
+#9 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\BaseAttackForceScrapy\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'188.43.235.177' (using password: YES) in C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\BaseAttackForceScrapy\app\Models\UserModel.php(15): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\BaseAttackForceScrapy\app\Controllers\Auth.php(40): App\Models\UserModel->auth(Array)
+#7 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Auth->login()
+#8 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\BaseAttackForceScrapy\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-26 16:26:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'188.43.235.177' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UserModel.php(15): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Auth.php(40): App\Models\UserModel->auth([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-26 16:26:57 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'nouahsar_Amjad200'@'188.43.235.177' (using password: YES) in C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('151.106.100.138', 'nouahsar_Amjad2...', 'Rook700Jean956', 'baseattackforce', 3306, '', 0)
+#1 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\BaseAttackForceScrapy\app\Models\UserModel.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\BaseAttackForceScrapy\app\Controllers\Auth.php(40): App\Models\UserModel->auth(Array)
+#8 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Auth->login()
+#9 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\BaseAttackForceScrapy\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'188.43.235.177' (using password: YES) in C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\BaseAttackForceScrapy\app\Models\UserModel.php(15): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\BaseAttackForceScrapy\app\Controllers\Auth.php(40): App\Models\UserModel->auth(Array)
+#7 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Auth->login()
+#8 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\BaseAttackForceScrapy\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-26 16:26:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'188.43.235.177' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UserModel.php(15): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Auth.php(40): App\Models\UserModel->auth([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-26 16:27:25 --> Error connecting to the database: ErrorException: mysqli::real_connect(): php_network_getaddresses: getaddrinfo for https failed: No such host is known.  in C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 171)
+#1 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('https://151.106...', 'nouahsar_Amjad2...', 'Rook700Jean956', 'baseattackforce', 3306, '', 0)
+#2 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#7 C:\xampp\htdocs\BaseAttackForceScrapy\app\Models\UserModel.php(15): CodeIgniter\BaseModel->first()
+#8 C:\xampp\htdocs\BaseAttackForceScrapy\app\Controllers\Auth.php(40): App\Models\UserModel->auth(Array)
+#9 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Auth->login()
+#10 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\BaseAttackForceScrapy\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+
+Next mysqli_sql_exception: php_network_getaddresses: getaddrinfo for https failed: No such host is known.  in C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('https://151.106...', 'nouahsar_Amjad2...', 'Rook700Jean956', 'baseattackforce', 3306, '', 0)
+#1 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\BaseAttackForceScrapy\app\Models\UserModel.php(15): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\BaseAttackForceScrapy\app\Controllers\Auth.php(40): App\Models\UserModel->auth(Array)
+#8 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Auth->login()
+#9 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#10 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\BaseAttackForceScrapy\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: php_network_getaddresses: getaddrinfo for https failed: No such host is known.  in C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\BaseModel.php(623): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\BaseAttackForceScrapy\app\Models\UserModel.php(15): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\BaseAttackForceScrapy\app\Controllers\Auth.php(40): App\Models\UserModel->auth(Array)
+#7 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Auth->login()
+#8 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\BaseAttackForceScrapy\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\BaseAttackForceScrapy\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-26 16:27:25 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo for https failed: No such host is known. 
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(250): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(623): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Models\UserModel.php(15): CodeIgniter\BaseModel->first()
+ 6 APPPATH\Controllers\Auth.php(40): App\Models\UserModel->auth([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

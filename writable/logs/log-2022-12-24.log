@@ -1,0 +1,3 @@
+CRITICAL - 2022-12-24 21:09:28 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Controllers\Scrape.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

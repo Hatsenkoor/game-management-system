@@ -1,0 +1,366 @@
+CRITICAL - 2022-12-19 00:32:02 --> Class "CodeIgniter\Exception\PageNotFoundException" not found
+in APPPATH\Controllers\Pages.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('home')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 00:33:16 --> Invalid file: templates/footer.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/footer.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates/footer', [], true)
+ 3 APPPATH\Controllers\Pages.php(23): view('templates/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('home')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 00:34:07 --> Class "CodeIgniter\Exception\PageNotFoundException" not found
+in APPPATH\Controllers\Pages.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('asdf')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 00:34:14 --> Class "CodeIgniter\Exception\PageNotFoundException" not found
+in APPPATH\Controllers\Pages.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('battle')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 00:34:57 --> Class "CodeIgniter\Exception\PageNotFoundException" not found
+in APPPATH\Controllers\Pages.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('shop')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 01:15:02 --> Class "CodeIgniter\Exception\PageNotFoundException" not found
+in APPPATH\Controllers\Pages.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('battle')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 01:15:49 --> Class "CodeIgniter\Exception\PageNotFoundException" not found
+in APPPATH\Controllers\Pages.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('battle')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 01:15:58 --> Class "CodeIgniter\Exception\PageNotFoundException" not found
+in APPPATH\Controllers\Pages.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('battle')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 01:16:14 --> Class "CodeIgniter\Exception\PageNotFoundException" not found
+in APPPATH\Controllers\Pages.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('battle')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 01:16:35 --> Class "CodeIgniter\Exception\PageNotFoundException" not found
+in APPPATH\Controllers\Pages.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('battles')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 01:16:37 --> Class "CodeIgniter\Exception\PageNotFoundException" not found
+in APPPATH\Controllers\Pages.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('battle')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 01:16:37 --> Class "CodeIgniter\Exception\PageNotFoundException" not found
+in APPPATH\Controllers\Pages.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('battle')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-19 01:16:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\codeigniter-blog\app\Models\BattleModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\codeigniter-blog\app\Controllers\Battle.php(14): App\Models\BattleModel->getBattles()
+#8 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Battle->index()
+#9 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Battle))
+#10 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\codeigniter-blog\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\xampp\htdocs\codeigniter-blog\app\Models\BattleModel.php(15): CodeIgniter\BaseModel->findAll()
+#6 E:\xampp\htdocs\codeigniter-blog\app\Controllers\Battle.php(14): App\Models\BattleModel->getBattles()
+#7 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Battle->index()
+#8 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Battle))
+#9 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\codeigniter-blog\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\codeigniter-blog\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(46): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-12-19 01:16:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `battles`', [], false)
+ 3 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\BattleModel.php(15): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Battle.php(14): App\Models\BattleModel->getBattles()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Battle->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Battle))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 01:17:23 --> Undefined array key "title"
+in APPPATH\Views\battle\overview.php on line 7.
+ 1 APPPATH\Views\battle\overview.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\battle\\overview.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\battle\\overview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('battle/overview', [], true)
+ 5 APPPATH\Controllers\Battle.php(19): view('battle/overview')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Battle->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Battle))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 01:18:09 --> Undefined array key "body"
+in APPPATH\Views\battle\overview.php on line 10.
+ 1 APPPATH\Views\battle\overview.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "body"', 'APPPATH\\Views\\battle\\overview.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\battle\\overview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('battle/overview', [], true)
+ 5 APPPATH\Controllers\Battle.php(19): view('battle/overview')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Battle->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Battle))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 01:18:20 --> Undefined variable $news_item
+in APPPATH\Views\battle\overview.php on line 12.
+ 1 APPPATH\Views\battle\overview.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news_item', 'APPPATH\\Views\\battle\\overview.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\battle\\overview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('battle/overview', [], true)
+ 5 APPPATH\Controllers\Battle.php(19): view('battle/overview')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Battle->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Battle))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 01:18:25 --> Undefined variable $news_item
+in APPPATH\Views\battle\overview.php on line 12.
+ 1 APPPATH\Views\battle\overview.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $news_item', 'APPPATH\\Views\\battle\\overview.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\battle\\overview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('battle/overview', [], true)
+ 5 APPPATH\Controllers\Battle.php(19): view('battle/overview')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Battle->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Battle))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 01:18:45 --> Class "CodeIgniter\Exception\PageNotFoundException" not found
+in APPPATH\Controllers\Pages.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('battle')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 01:18:45 --> Class "CodeIgniter\Exception\PageNotFoundException" not found
+in APPPATH\Controllers\Pages.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pages->view('battle')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 01:45:43 --> Call to undefined function baseURL()
+in APPPATH\Views\templates\header.php on line 1.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('templates/header', [], true)
+ 4 APPPATH\Controllers\Battle.php(18): view('templates/header', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Battle->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Battle))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 02:39:21 --> syntax error, unexpected end of file
+in APPPATH\Views\battle\overview.php on line 331.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('battle/overview', [], true)
+ 3 APPPATH\Controllers\Battle.php(18): view('battle/overview')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Battle->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Battle))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 05:18:58 --> Undefined variable $battles
+in APPPATH\Views\profile\overview.php on line 27.
+ 1 APPPATH\Views\profile\overview.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $battles', 'APPPATH\\Views\\profile\\overview.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile\\overview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profile/overview', [], true)
+ 5 APPPATH\Controllers\Profile.php(19): view('profile/overview')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 05:59:21 --> Undefined variable $battles
+in APPPATH\Views\battle\overview.php on line 27.
+ 1 APPPATH\Views\battle\overview.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $battles', 'APPPATH\\Views\\battle\\overview.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\battle\\overview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('battle/overview', [], true)
+ 5 APPPATH\Controllers\Battle.php(19): view('battle/overview')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Battle->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Battle))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 05:59:32 --> Undefined variable $battles
+in APPPATH\Views\battle\overview.php on line 27.
+ 1 APPPATH\Views\battle\overview.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $battles', 'APPPATH\\Views\\battle\\overview.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\battle\\overview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('battle/overview', [], true)
+ 5 APPPATH\Controllers\Battle.php(19): view('battle/overview')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Battle->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Battle))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 05:59:52 --> Undefined variable $battles
+in APPPATH\Views\battle\overview.php on line 27.
+ 1 APPPATH\Views\battle\overview.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $battles', 'APPPATH\\Views\\battle\\overview.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\battle\\overview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('battle/overview', [], true)
+ 5 APPPATH\Controllers\Battle.php(19): view('battle/overview')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Battle->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Battle))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 06:01:55 --> Undefined variable $battles
+in APPPATH\Views\battle\overview.php on line 27.
+ 1 APPPATH\Views\battle\overview.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $battles', 'APPPATH\\Views\\battle\\overview.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\battle\\overview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('battle/overview', [], true)
+ 5 APPPATH\Controllers\Battle.php(19): view('battle/overview')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Battle->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Battle))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 06:02:12 --> Undefined variable $battles
+in APPPATH\Views\profile\overview.php on line 104.
+ 1 APPPATH\Views\profile\overview.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $battles', 'APPPATH\\Views\\profile\\overview.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile\\overview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profile/overview', [], true)
+ 5 APPPATH\Controllers\Profile.php(19): view('profile/overview')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 06:02:26 --> Undefined variable $battles
+in APPPATH\Views\profile\overview.php on line 104.
+ 1 APPPATH\Views\profile\overview.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $battles', 'APPPATH\\Views\\profile\\overview.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile\\overview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profile/overview', [], true)
+ 5 APPPATH\Controllers\Profile.php(19): view('profile/overview')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 06:02:28 --> Undefined variable $battles
+in APPPATH\Views\profile\overview.php on line 104.
+ 1 APPPATH\Views\profile\overview.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $battles', 'APPPATH\\Views\\profile\\overview.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile\\overview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profile/overview', [], true)
+ 5 APPPATH\Controllers\Profile.php(19): view('profile/overview')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 06:02:30 --> Undefined variable $battles
+in APPPATH\Views\profile\overview.php on line 104.
+ 1 APPPATH\Views\profile\overview.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $battles', 'APPPATH\\Views\\profile\\overview.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profile\\overview.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profile/overview', [], true)
+ 5 APPPATH\Controllers\Profile.php(19): view('profile/overview')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 08:36:22 --> password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated
+in APPPATH\Models\UsersModel.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated', 'APPPATH\\Models\\UsersModel.php', 18)
+ 2 APPPATH\Models\UsersModel.php(18): password_verify('dssads', null)
+ 3 APPPATH\Controllers\Auth.php(40): App\Models\UsersModel->auth([...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 08:38:13 --> Undefined constant "App\Models\user"
+in APPPATH\Models\UsersModel.php on line 18.
+ 1 APPPATH\Controllers\Auth.php(40): App\Models\UsersModel->auth([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 08:38:32 --> Undefined constant "App\Models\user"
+in APPPATH\Models\UsersModel.php on line 18.
+ 1 APPPATH\Controllers\Auth.php(40): App\Models\UsersModel->auth([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 08:47:29 --> Cannot call constructor
+in APPPATH\Controllers\Profile.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Profile->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-19 09:34:00 --> Call to undefined method App\Models\UserModel::getMembers
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\User.php(25): CodeIgniter\Model->__call('getMembers', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\User->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
